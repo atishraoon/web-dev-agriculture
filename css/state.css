@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* --------------------------------------top bar title */
+
+
+#logo-top{
+    max-width: 100wh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;   
+    color: green;
+    font-weight: bolder; 
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem; 
+}
+
+
+/* --------------------------------------------nav bar  */
+
+#navbar-top{
+    background-color:#247848;
+    border-radius: 5px; 
+}
+#navbar-top li a{
+    font-size:1.1rem;
+    color: white;
+}
+#navbar-top li a:hover{
+    color: rgb(153, 150, 150);
+}
+
+
+#img-main-div{
+    color: white;
+    padding-top: 1rem;
+    height: 22rem;
+    width: 33rem;
+    background-color: #247848;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#img-main-div h3{
+    text-align: center;
+}
+
+#img-main-div img{
+    align-items:center;
+}

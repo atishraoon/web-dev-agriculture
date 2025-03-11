@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------top bar title */
+
+
+#logo-top{
+    max-width: 100wh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;   
+    color: green;
+    font-weight: bolder; 
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem; 
+}
+
+
+/* --------------------------------------------nav bar  */
+
+#navbar-top{
+    background-color:#247848;
+    border-radius: 5px; 
+}
+#navbar-top li a{
+    font-size:1.1rem;
+    color: white;
+}
+#navbar-top li a:hover{
+    color: rgb(153, 150, 150);
+}
+
+/* -----------------------------------------------------main content */
+#img-main-top{
+    border-radius: 12px;
+}
+
+
+/* ---------------------------------------------important links  */
+
+#imp-link-box-a{
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+#imp-link-box-a a{
+    text-decoration: none;
+    color :black;
+    font-size:1.6rem;
+}
+#imp-link-box{
+    height: 8rem;
+    width: 8rem;
+}
+#imp-link-box:hover{
+    background-color: #195031;
+    color: white;
+}
+
+
